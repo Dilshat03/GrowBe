@@ -20,6 +20,7 @@ ul {
 
 body {
     font-family: "Gilroy", sans-serif;
+    overflow-x: hidden;
 }
 
 .row {
@@ -311,11 +312,7 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-.what-we-do{
-    background-image: url("../images/dribbble_illustration_v3 1.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-}
+
 .what-we-do-title{
     margin-top: 107px;
     font-size: 45px;
@@ -323,5 +320,34 @@ body {
     color: #000000;
 }
 .what-we-do-desc{
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+.what-we-do-img{
+    direction: rtl;
+}
+.what-we-do-box{
+    width: 100px;
+    height: 100px;
+    background: #FCD5C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow-x: hidden;
+}
+
+.box-desc{
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+
+}
+.box-title{
+    font-size: 20px;
+    line-height: 150%;
 
 }
